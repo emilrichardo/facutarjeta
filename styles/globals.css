@@ -8,3 +8,7 @@
 body{
   @apply font-title
 }
+
+.fp-watermark{
+  display: none;
+}
