@@ -2,6 +2,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 import ReactFullpage from '@fullpage/react-fullpage';
 import Button from '../components/Button';
+import ReactAudioPlayer from 'react-audio-player';
+
 
 export default function Home() {
   return (
@@ -36,6 +38,7 @@ export default function Home() {
                 <div className='px-14'>
                   <h2 className=' text-8xl'>Hola,<br/> soy Goku...</h2>
                 </div>
+
 
                   <div className='absolute bottom-10 w-full text-center '>
                     <h5 className='text-2xl'>Seguí bajando che gil</h5>
@@ -128,9 +131,14 @@ export default function Home() {
                   <div className='px-14 pt-24'>
                    <h3 className=' text-6xl'>Sábado 21/5 <br/> al mediodía</h3>
                    <h2 className=' text-yellow-300 text-9xl'>Locro Libre</h2>
+                    <ReactAudioPlayer
+                      src="audio/invitacion.ogg"
+                      autoPlay={true}
+                      controls
+                    />
                    <h5 className=' text-4xl my-8'>No falles, no seas mandao</h5>
-                   <a href=''><ButtonDown>Ver ubicación en mapa</ButtonDown></a>
-                   <a arget="_blank" rel="noreferrer"  href="https://wa.me/+5493855759961?text=Claro que voy che gil">
+                   <a href='https://goo.gl/maps/FQmtoxuUDZyo8Y5y7'  target="_blank" rel="noreferrer" ><ButtonDown>Ver ubicación en mapa</ButtonDown></a>
+                   <a arget="_blank"  target="_blank" rel="noreferrer"  href="https://wa.me/+5493855759961?text=Claro que voy che gil">
                      <ButtonDown>Confirmar presencia</ButtonDown>
                    </a>
 
