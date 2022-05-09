@@ -35,12 +35,12 @@ export default function Home() {
                   />
 
                 </div>
-                <div className='px-14'>
-                  <h2 className=' text-8xl'>Hola,<br/> soy Goku...</h2>
+                <div className='px-10'>
+                  <h2 className=' text-6xl'>Hola,<br/> soy Goku...</h2>
                 </div>
 
 
-                  <div className='absolute bottom-10 w-full text-center '>
+                  <div className='absolute bottom-5 w-full text-center '>
                     <h5 className='text-2xl'>Seguí bajando che gil</h5>
                       <ButtonDown  onClick={() => fullpageApi.moveSectionDown()}>
                       &#x25BC;
@@ -49,7 +49,7 @@ export default function Home() {
 
               </div>
               <div className="section !flex flex-col ">
-                <div className=' h-[300px] relative'>
+                <div className=' h-[25vh] relative'>
                   <Image
                     width={900}
                     height={700}
@@ -61,15 +61,15 @@ export default function Home() {
 
                   </div>
                   <div className='px-14 pt-8'>
-                    <h2 className=' text-8xl'>¿Que pasa<br/> maraca?</h2>
-                    <h4 className='text-4xl mt-8'>No se si sabras pero se viene  mi cumple. <br/>
+                    <h2 className=' text-5xl'>¿Que pasa<br/> maraca?</h2>
+                    <h4 className='text-2xl mt-8'>No se si sabras pero se viene  mi cumple. <br/>
                     Y vamo a festejarlo como corresponde.
 
                     </h4>
 
                   </div>
                   <div className='absolute bottom-10 w-full text-center '>
-                    <h5 className='text-2xl'>Seguí bajando (puto el que lee)</h5>
+                    <h5 className='text-2xl'>Seguí bajando<br/> (puto el que lee)</h5>
                       <ButtonDown  onClick={() => fullpageApi.moveSectionDown()}>
                       &#x25BC;
                       </ButtonDown>
@@ -78,8 +78,8 @@ export default function Home() {
               <div className="section !flex flex-col bg-yellow-300 ">
 
                   <div className='px-14 pt-8'>
-                    <h2 className=' text-6xl'>Super guitarreada en mi casa</h2>
-                    <div className=' h-[300px] relative my-8'>
+                    <h2 className=' text-4xl'>Super guitarreada en mi casa</h2>
+                    <div className=' h-[25vh] relative my-8'>
                   <Image
                     width={900}
                     height={700}
@@ -90,7 +90,7 @@ export default function Home() {
                     />
 
                   </div>
-                    <h4 className='text-4xl mt-8'>Pero para para para...<br/>
+                    <h4 className='text-xl mt-8'>Pero para para para...<br/>
                     Todavía no estás invitado.
 
                     </h4>
@@ -106,7 +106,7 @@ export default function Home() {
               <div className="section !flex flex-col bg-black text-white ">
 
                   <div className='px-14 pt-24'>
-                   <ul className=' text-4xl'>
+                   <ul className=' text-2xl'>
                     <li>Tocas algun instrumento?</li>
                     <li>Cantas?</li>
                     <li>Cebas Fernet?</li>
@@ -114,7 +114,7 @@ export default function Home() {
                     <li>Te cuartearon mas de una vez?</li>
                    </ul>
 
-                   <h4 className=' text-yellow-300 text-4xl mt-14'>
+                   <h4 className=' text-yellow-300 text-2xl mt-14'>
                    Si contestaste si a todas, Felicitaciones estas invitado!!!
                    </h4>
 
@@ -129,8 +129,8 @@ export default function Home() {
               <div className="section !flex flex-col ">
 
                   <div className='px-14 pt-24'>
-                   <h3 className=' text-6xl'>Sábado 21/5 <br/> al mediodía</h3>
-                   <h2 className=' text-yellow-300 text-9xl'>Locro Libre</h2>
+                   <h3 className=' text-4xl'>Sábado 21/5 <br/> al mediodía</h3>
+                   <h2 className=' text-yellow-300 text-7xl'>Locro Libre</h2>
                     <ReactAudioPlayer
                       src="audio/invitacion.ogg"
                       autoPlay={true}
@@ -159,6 +159,6 @@ export default function Home() {
 }
 
 
-const ButtonDown = ({children, onClick})=>  <button className='text-3xl mx-auto inline-block bg-yellow-300 px-8 py-4 border-8 border-gray-900'  onClick={ onClick }>
+const ButtonDown = ({children, onClick})=>  <button className='text-xl mx-auto inline-block bg-yellow-300 px-4 py-3 border-8 border-gray-900'  onClick={ onClick }>
 {children}
 </button>
