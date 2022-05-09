@@ -22,7 +22,7 @@ export default function Home() {
         render={({ state, fullpageApi }) => {
           return (
             <ReactFullpage.Wrapper>
-              <div className="section !flex flex-col ">
+              <div className="section !flex justify-between pb-[20vh] flex-col ">
 
                 <div className=' h-1/2 relative'>
                 <Image
@@ -48,7 +48,7 @@ export default function Home() {
                   </div>
 
               </div>
-              <div className="section !flex flex-col ">
+              <div className="section !flex justify-between pb-[20vh] flex-col ">
                 <div className=' h-[25vh] relative'>
                   <Image
                     width={900}
@@ -75,7 +75,7 @@ export default function Home() {
                       </ButtonDown>
                   </div>
               </div>
-              <div className="section !flex flex-col bg-yellow-300 ">
+              <div className="section !flex justify-between pb-[20vh] flex-col bg-yellow-300 ">
 
                   <div className='px-14 pt-8'>
                     <h2 className=' text-4xl'>Super guitarreada en mi casa</h2>
@@ -103,7 +103,7 @@ export default function Home() {
                       </ButtonDown>
                   </div>
               </div>
-              <div className="section !flex flex-col bg-black text-white ">
+              <div className="section !flex justify-between pb-[20vh] flex-col bg-black text-white ">
 
                   <div className='px-14 pt-24'>
                    <ul className=' text-2xl'>
@@ -126,7 +126,7 @@ export default function Home() {
                       </ButtonDown>
                   </div>
               </div>
-              <div className="section !flex flex-col ">
+              <div className="section !flex justify-between pb-[20vh] flex-col ">
 
                   <div className='px-14 pt-24'>
                    <h3 className=' text-4xl'>Sábado 21/5 <br/> al mediodía</h3>
